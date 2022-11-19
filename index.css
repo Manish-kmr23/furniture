@@ -1,0 +1,404 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 70px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    opacity: .7;
+    cursor: pointer;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: lightpink;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    z-index: -1;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.left{
+    flex-basis: 60%;
+    padding-left: 90px;
+}
+.right{
+    flex-basis: 40%;
+}
+.right img{
+    width: 70%;
+}
+.left h1{
+    font-size: 50px;
+}
+.left span{
+color: gray;
+}
+.p-header{
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 30px;
+}
+.btn input{
+    padding: 10px;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: none;
+}
+.btn button{
+    padding: 10px;
+    color: white;
+    background-color: darkblue;
+    border: none;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.btn button:hover{
+    background-color: blueviolet;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+#welcome{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    top: 60%;
+    width: 180px;
+    z-index: -1;
+}
+#featured{
+    padding: 100px 50px;
+}
+.featured-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.featured-left-col{
+    flex-basis: 50%;
+}
+.featured-left-col img{
+    width: 80%;
+}
+.featured-right-col{
+    flex-basis: 50%;
+    max-width: 500px;
+}
+.featured-right-col h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.featured-right-col p{
+    margin: 20px 0px;
+    color: grey;
+}
+.c-btn{
+    background: none;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    color: black;
+    transition: all .5s ease-in-out;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.c-btn:hover{
+    background-color: steelblue;
+    color: aliceblue;
+}
+#featured2{
+    padding: 100px 50px;
+}
+.featured2-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.featured2-left-col{
+    flex-basis: 50%;
+    max-width: 500px;
+}
+.featured2-right-col{
+  flex-basis: 50%;
+}
+.featured2-right-col img{
+    width: 100%;
+}
+.featured2-left-col h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.featured2-left-col p{
+    margin: 20px 0px;
+    color: grey;
+}
+/* featured3 */
+#featured3{
+    padding: 100px 50px;
+}
+.featured3-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.featured3-left-col{
+    flex-basis: 50%;
+}
+.featured3-left-col img{
+    width: 80%;
+}
+.featured3-right-col{
+    flex-basis: 50%;
+    max-width: 500px;
+}
+.featured3-right-col h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.featured3-right-col p{
+    margin: 20px 0px;
+    color: grey;
+}
+.c-btn{
+    background: none;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    color: black;
+    transition: all .5s ease-in-out;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.c-btn:hover{
+    background-color: steelblue;
+    color: aliceblue;
+}
+#selling{
+    padding: 50px;
+}
+.selling-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#selling h1{
+    text-align: center;
+    font-size: 50px;
+    color: teal;
+    margin: 13px 0px;
+}
+.selling-box{
+    flex-basis: 33%;
+    padding: 12px;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+}
+.selling-box h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+.selling-box p{
+    font-size: 20px;
+}
+.selling-box:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+.selling-box img{
+    width: 100%;
+}
+.blog-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#blog h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 15px 0px;
+    color: brown;
+}
+#blog{
+    margin: 15px 0px;
+}
+.blog-box{
+    text-align: center;
+    padding: 13px;
+    border-radius: 12px;
+}
+.blog-box h3{
+    font-size: 20px;
+    color: blueviolet;
+    margin: 10px 0px;
+}
+.blog-box p{
+    font-size: 20px;
+    margin: 5px 0px;
+    color: blue;
+}
+.blog-box button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: 12px 0px;
+    background-color: brown;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 17px;
+}
+.blog-box img{
+    text-align: center;
+    margin-left: 10px;
+}
+.footer{
+    height: 400px;
+    margin-top: 3rem;
+    padding: 30px 50px;
+}
+.subscribe{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.subscribe input{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: lightblue;
+    outline: none;
+    border-radius: 10px;
+}
+.subscribe1{
+    padding: 10px;
+    color: brown;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-row p{
+    color: gray;
+    margin: 15px 0px;
+    font-size: 25px;
+}
+@media (max-width:770px) {
+    .menu{
+        display: none;
+    }
+    .left{
+        flex-basis: 100%;
+        margin: 50px 100px;
+    }
+    .logo{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .right{
+        display: none;
+    }
+    #welcome{
+        width: 120px;
+    }
+    .btn input{
+        width: 50%;
+    }
+    .featured-left-col{
+        flex-basis: 100%;
+    }
+    .featured-right-col{
+        flex-basis: 100%;
+    }
+    .featured2-left-col{
+        flex-basis: 100%;
+    }
+    .featured2-right-col{
+        flex-basis: 100%;
+    }
+    .featured3-left-col{
+        flex-basis: 100%;
+    }
+    .featured3-right-col{
+        flex-basis: 100%;
+    }
+    .featured3-right-col img{
+        width: 100%;
+    }
+    .selling-box{
+        flex-basis: 100%;
+        margin-top: 15px;
+    }
+    .blog-row{
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .subscribe{
+        text-align: center;
+    }
+    .footer-row{
+        display: block;
+        text-align: center;
+       
+    }
+    .footer-row > div{
+        margin-top: 30px;
+    }
+
+}
